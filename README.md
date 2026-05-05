@@ -1,7 +1,9 @@
 📈 **BTC Multi-Stage Market Monitoring Bot**
+
 This repository contains the n8n workflow JSON for a dual-architecture Bitcoin monitoring system. It provides both real-time price analysis and conditional threshold alerts via Telegram.
 
 📋 **Features**
+
 Dual-Logic Architecture:
 
 Alert Stream: Specifically filters for high-volatility events (>$85k or <$72k) to ensure you never miss critical movements.
@@ -13,6 +15,7 @@ Automated Normalization: Uses custom JavaScript nodes to parse Coinbase API data
 Real-time Alerts: Instant Telegram notifications with emojis and formatted pricing for high readability.
 
 🚀 **How to Install**
+
 Since this repository only contains the workflow logic, follow these steps to get it running:
 
 **Download the JSON:**
@@ -40,6 +43,7 @@ Coinbase API: The HTTP nodes are pre-configured for public spot prices; no API k
 The "Schedule Trigger" is set to run every 10 minutes. Click Execute Workflow to test the initial connection.
 
 🛠️ **Tech Stack**
+
 n8n: Workflow automation engine.
 
 Docker: For self-hosted deployment.
